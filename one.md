@@ -20,7 +20,7 @@ O aspecto mais crítico investigado é a possibilidade de consultar registros de
 
 A exploração desse cenário poderia comprometer a confidencialidade de dados pessoais, incluindo CPF e nome completo, com potencial impacto sobre uma quantidade expressiva de titulares.
 
-**Caso seja confirmada a possibilidade de consultar CPFs de terceiros diretamente nos sistemas da empresa de telecomunicações, sem autorização, o cenário poderá ser classificado como de severidade ALTA (CVSS 7.0–8.9)**, dependendo das condições de exploração e do impacto comprovado.
+**Dado possibilidade de consultar CPFs de terceiros diretamente nos sistemas da empresa de telecomunicações, sem autorização, o cenário poderá ser classificado como de severidade ALTA (CVSS 7.0–8.9)**, dependendo das condições de exploração e do impacto comprovado.
 
 ### Exemplo de exposição por correlação de dados
 
