@@ -4,19 +4,17 @@
 
 Estudo independente realizado ao longo de aproximadamente dois meses, investigando exposição de dados pessoais e falhas de mascaramento em plataformas digitais.
 
-Foram avaliadas quatro plataformas, identificando comportamentos que permitem correlacionar informações parcialmente ocultas e investigar riscos de reidentificação. Mais de 100 registros foram analisados durante a pesquisa.
+Foram avaliadas quatro plataformas entre Financeiras e Telecomunicações, identificando comportamentos que permitem correlacionar informações parcialmente ocultas e investigar riscos de reidentificação. Mais de 100 registros foram analisados durante a pesquisa.
 
 ## 2. Vulnerabilidade identificada
 
-Em uma plataforma de telecomunicações, foi identificado um cenário em que informações cadastrais associadas aos clientes poderiam ser disponibilizadas durante fluxos de contratação.
-
+Em uma plataforma de telecomunicações, foi identificado um cenário em que informações cadastrais associadas aos clientes poderiam ser disponibilizadas durante fluxos de contratação ou compra.
+<img width="1125" height="481" alt="image" src="https://github.com/user-attachments/assets/f563a9f4-cf08-4670-8954-1d5d9fe05f67" />
 A análise também identificou uma possível combinação de informações entre uma plataforma financeira e uma plataforma de telecomunicações, cujos mecanismos de mascaramento expõem segmentos diferentes do CPF.
 
 O aspecto mais crítico investigado é a possibilidade de consultar registros de diferentes titulares e obter informações cadastrais sem autorização adequada, caso a falha de controle de acesso seja confirmada.
 
 ## 3. Impacto e severidade estimada
-<img width="1125" height="481" alt="image" src="https://github.com/user-attachments/assets/f563a9f4-cf08-4670-8954-1d5d9fe05f67" />
-
 
 A exploração desse cenário poderia comprometer a confidencialidade de dados pessoais, incluindo CPF e nome completo, com potencial impacto sobre uma quantidade expressiva de titulares.
 
