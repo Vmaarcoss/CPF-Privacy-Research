@@ -33,7 +33,7 @@ Exemplo ilustrativo dos padrões observados:
 
 Cada plataforma ocultava segmentos diferentes do CPF. A correlação dessas informações demonstrou um risco de reidentificação, pois dados que individualmente pareciam parcialmente protegidos poderiam, em conjunto, revelar o identificador completo.
 
-O aspecto mais crítico da investigação foi a possibilidade de exposição de registros de terceiros, e não apenas dos dados vinculados à própria conta.
+O aspecto mais crítico da investigação foi a possibilidade de exposição de registros de um banco de dados inteiro de uma empresa vindo diretamente no console.
 
 <text color="secondary" size="xs">Os valores apresentados são fictícios e servem exclusivamente para demonstrar o padrão de mascaramento, sem divulgar identificadores reais.</text>
 
