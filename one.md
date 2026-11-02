@@ -15,6 +15,8 @@ A análise também identificou uma possível combinação de informações entre
 O aspecto mais crítico investigado é a possibilidade de consultar registros de diferentes titulares e obter informações cadastrais sem autorização adequada, caso a falha de controle de acesso seja confirmada.
 
 ## 3. Impacto e severidade estimada
+<img width="1125" height="481" alt="image" src="https://github.com/user-attachments/assets/f563a9f4-cf08-4670-8954-1d5d9fe05f67" />
+
 
 A exploração desse cenário poderia comprometer a confidencialidade de dados pessoais, incluindo CPF e nome completo, com potencial impacto sobre uma quantidade expressiva de titulares.
 
