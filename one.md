@@ -22,6 +22,16 @@ A exploração desse cenário poderia comprometer a confidencialidade de dados p
 
 Essa é uma estimativa preliminar, não uma pontuação oficial nem garantia de atribuição de CVE.
 
+Exemplo ilustrativo:
+
+Plataforma A: 123.***.***-99
+
+Plataforma B: ***.456.789-**
+
+Os padrões acima representam comportamentos observados durante a pesquisa, com dados substituídos por valores fictícios para preservar a privacidade dos titulares.
+
+A análise considerou a exposição de diferentes segmentos de um mesmo identificador em uma plataforma financeira e em uma plataforma de telecomunicações.
+
 ## 4. Escopo e responsabilidade
 
 Este material possui finalidade exclusivamente educacional e de conscientização sobre segurança da informação e privacidade.
