@@ -16,21 +16,26 @@ O aspecto mais crítico investigado é a possibilidade de consultar registros de
 
 ## 3. Impacto e severidade estimada
 
-A exploração desse cenário poderia comprometer a confidencialidade de dados pessoais, incluindo CPF e nome completo, com potencial impacto em uma quantidade expressiva de titulares.
+A exploração desse cenário poderia comprometer a confidencialidade de dados pessoais, incluindo CPF e nome completo, com potencial impacto sobre uma quantidade expressiva de titulares.
 
-**Com a possibilidade de consultar CPFs de terceiros diretamente nos sistemas da empresa, sem autorização, a vulnerabilidade poderia receber classificação de severidade ALTA (CVSS 7.0–8.9), dependendo dos vetores de exploração e do impacto comprovado.**
+**Caso seja confirmada a possibilidade de consultar CPFs de terceiros diretamente nos sistemas da empresa de telecomunicações, sem autorização, o cenário poderá ser classificado como de severidade ALTA (CVSS 7.0–8.9)**, dependendo das condições de exploração e do impacto comprovado.
 
-Essa é uma estimativa preliminar, não uma pontuação oficial nem garantia de atribuição de CVE.
+### Exemplo de exposição por correlação de dados
 
-Exemplo ilustrativo:
+Durante a pesquisa, foi identificado um cenário envolvendo duas plataformas de segmentos distintos, uma financeira e outra de telecomunicações, que apresentavam diferentes partes de um mesmo identificador pessoal.
 
-Plataforma A: 123.***.***-99
+Exemplo ilustrativo dos padrões observados:
 
-Plataforma B: ***.456.789-**
+- **Plataforma A — Telecomunicações:** `123.***.***-99`
+- **Plataforma B — Financeira:** `***.456.789-**`
 
-Os padrões acima representam comportamentos observados durante a pesquisa, com dados substituídos por valores fictícios para preservar a privacidade dos titulares.
+Cada plataforma ocultava segmentos diferentes do CPF. A correlação dessas informações demonstrou um risco de reidentificação, pois dados que individualmente pareciam parcialmente protegidos poderiam, em conjunto, revelar o identificador completo.
 
-A análise considerou a exposição de diferentes segmentos de um mesmo identificador em uma plataforma financeira e em uma plataforma de telecomunicações.
+O aspecto mais crítico da investigação foi a possibilidade de exposição de registros de terceiros, e não apenas dos dados vinculados à própria conta.
+
+<text color="secondary" size="xs">Os valores apresentados são fictícios e servem exclusivamente para demonstrar o padrão de mascaramento, sem divulgar identificadores reais.</text>
+
+**Nota:** a classificação apresentada é uma estimativa preliminar. A pontuação CVSS depende da validação técnica da vulnerabilidade; a atribuição de um CVE é um processo independente.
 
 ## 4. Escopo e responsabilidade
 
